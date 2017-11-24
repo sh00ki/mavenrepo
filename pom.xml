@@ -5,9 +5,7 @@
   <version>2.5-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
-    <sourceDirectory>src</sourceDirectory>
-    <plugins>
-      <pluginManagement>
+    <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -37,6 +35,8 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.3</version>
